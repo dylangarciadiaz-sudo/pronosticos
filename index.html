@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pronósticos de fútbol</title>
+<style>
+:root{--bg:#fff;--fg:#1a1a1a;--mut:#666;--card:#f4f5f7;--bar:#1D9E75}
+@media(prefers-color-scheme:dark){:root{--bg:#121212;--fg:#eee;--mut:#9a9a9a;--card:#1e1e1e;--bar:#3ec9a0}}
+body{font-family:system-ui,sans-serif;background:var(--bg);color:var(--fg);margin:0;padding:16px;max-width:760px;margin:auto}
+h1{font-size:1.3rem}small,.mut{color:var(--mut)}
+select{padding:6px;margin:8px 0;background:var(--card);color:var(--fg);border:0;border-radius:6px}
+.c{background:var(--card);border-radius:10px;padding:12px;margin:10px 0}
+.t{display:flex;justify-content:space-between;gap:8px}
+.b{height:8px;background:rgba(128,128,128,.25);border-radius:4px;margin-top:8px}
+.b i{display:block;height:100%;background:var(--bar);border-radius:4px}
+pre{white-space:pre-wrap;font-family:inherit}
+</style></head><body>
+<h1>⚽ Pronósticos ordenados por probabilidad</h1>
+<small id="act"></small><br>
+<select id="liga"><option value="">Todas las ligas</option></select>
+<div id="lista"></div>
+<h2 style="font-size:1.1rem">Análisis de Claude (top)</h2><pre id="an" class="mut"></pre>
+<p class="mut"><small>Son probabilidades estimadas, no certezas. Juega con responsabilidad.</small></p>
+<script>
+const N={local:"Gana local",empate:"Empate",visita:"Gana visita"};
+let D=null;
+function pintar(){
+  const f=document.getElementById("liga").value, L=document.getElementById("lista");
+  L.textContent="";
+  D.partidos.filter(p=>!f||p.liga===f).forEach(p=>{
+    const c=document.createElement("div");c.className="c";
+    const t=document.createElement("div");t.className="t";
+    const a=document.createElement("b");a.textContent=p.local+" vs "+p.visita;
+    const b=document.createElement("b");b.textContent=N[p.pick]+" "+p.prob+"%";
+    t.append(a,b);
+    const m=document.createElement("div");m.className="mut";
+    m.textContent=p.liga+" · "+new Date(p.fecha).toLocaleString("es-CO",{dateStyle:"short",timeStyle:"short"})
+      +" · L "+p.probs.local+"% / E "+p.probs.empate+"% / V "+p.probs.visita+"%"
+      +(p.consejo?" · "+p.consejo:"");
+    const bar=document.createElement("div");bar.className="b";
+    const i=document.createElement("i");i.style.width=p.prob+"%";bar.append(i);
+    c.append(t,m,bar);L.append(c);
+  });
+  if(!L.children.length)L.textContent="Sin partidos.";
+}
+fetch("data.json?"+Date.now()).then(r=>r.json()).then(d=>{
+  D=d;
+  document.getElementById("act").textContent="Actualizado: "+new Date(d.actualizado).toLocaleString("es-CO");
+  document.getElementById("an").textContent=d.analisis||"";
+  const s=document.getElementById("liga");
+  [...new Set(d.partidos.map(p=>p.liga))].forEach(l=>{const o=document.createElement("option");o.value=o.textContent=l;s.append(o)});
+  s.onchange=pintar;pintar();
+}).catch(()=>{document.getElementById("lista").textContent="Aún no hay datos. Ejecuta el workflow una vez."});
+</script></body></html>
