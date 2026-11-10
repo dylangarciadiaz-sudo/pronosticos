@@ -1,96 +1,71 @@
-import os, json, datetime, requests, anthropic
+import os, json, re, datetime, requests, anthropic
 from zoneinfo import ZoneInfo
 
-FOOTBALL_KEY = os.environ["FOOTBALL_API_KEY"]
 TG_TOKEN = os.environ["TELEGRAM_TOKEN"]
 TG_CHAT = os.environ["TELEGRAM_CHAT_ID"]
-
 TZ = "America/Bogota"
-LIGAS = {39: "Premier League", 140: "LaLiga", 135: "Serie A", 78: "Bundesliga",
-         61: "Ligue 1", 2: "Champions League", 239: "Liga BetPlay"}
-MAX_PARTIDOS = 40      # tope de consultas a /predictions por ejecución
+LIGAS = "Premier League, LaLiga, Serie A, Bundesliga, Ligue 1, Champions League y Liga BetPlay de Colombia"
+MAX_BUSQUEDAS = 8     # limite de busquedas web por ejecucion (controla el costo)
+MAX_PARTIDOS = 10
 TOP_TELEGRAM = 5
 
-H = {"x-apisports-key": FOOTBALL_KEY}
-BASE = "https://v3.football.api-sports.io"
-hoy = datetime.datetime.now(ZoneInfo(TZ)).date()
+ahora = datetime.datetime.now(ZoneInfo(TZ))
+hoy = ahora.date()
+manana = hoy + datetime.timedelta(days=1)
 
+prompt = f"""Hoy es {hoy.isoformat()} (hora de Colombia). Busca en la web los partidos de {hoy.isoformat()} y {manana.isoformat()}
+de estas competiciones: {LIGAS}. Elige hasta {MAX_PARTIDOS} partidos que aun no hayan empezado.
+Para cada uno revisa forma reciente, lesiones/suspensiones, local o visitante y, si lo encuentras, las cuotas.
+Estima probabilidades (enteros que sumen 100) de victoria local, empate y victoria visitante.
+Responde SOLO con un arreglo JSON, sin texto antes ni despues, con objetos asi:
+{{"liga":"...","fecha":"2026-11-10T15:00:00-05:00","local":"...","visita":"...",
+"probs":{{"local":50,"empate":28,"visita":22}},"consejo":"mercado recomendado en pocas palabras",
+"analisis":"2 lineas con el factor clave y el riesgo principal"}}
+Se honesto: si hay poca informacion, baja la confianza y reparte mejor las probabilidades.
+Si no hay partidos, responde []."""
 
-def pct(s):
-    try:
-        return int(str(s).strip("%"))
-    except Exception:
-        return 0
-
-
-# 1. Partidos de hoy y mañana (una llamada por fecha, filtrando ligas)
-partidos = []
-for d in (hoy, hoy + datetime.timedelta(days=1)):
-    r = requests.get(f"{BASE}/fixtures", headers=H,
-                     params={"date": d.isoformat(), "timezone": TZ}, timeout=30).json()
-    for f in r.get("response", []):
-        if f["league"]["id"] in LIGAS and f["fixture"]["status"]["short"] == "NS":
-            partidos.append(f)
-partidos = partidos[:MAX_PARTIDOS]
-
-# 2. Predicciones de la API
-items = []
-for f in partidos:
-    r = requests.get(f"{BASE}/predictions", headers=H,
-                     params={"fixture": f["fixture"]["id"]}, timeout=30).json()
-    if not r.get("response"):
+client = anthropic.Anthropic()
+tools = [{"type": "web_search_20250305", "name": "web_search", "max_uses": MAX_BUSQUEDAS}]
+msgs = [{"role": "user", "content": prompt}]
+for _ in range(5):
+    r = client.messages.create(model="claude-sonnet-5-5", max_tokens=6000,
+                               tools=tools, messages=msgs)
+    if r.stop_reason == "pause_turn":
+        msgs.append({"role": "assistant", "content": r.content})
         continue
-    p = r["response"][0]["predictions"]
-    probs = {"local": pct(p["percent"]["home"]), "empate": pct(p["percent"]["draw"]),
-             "visita": pct(p["percent"]["away"])}
-    pick = max(probs, key=probs.get)
-    items.append({
-        "liga": LIGAS[f["league"]["id"]],
-        "fecha": f["fixture"]["date"],
-        "local": f["teams"]["home"]["name"],
-        "visita": f["teams"]["away"]["name"],
-        "probs": probs,
-        "pick": pick,
-        "prob": probs[pick],
-        "consejo": p.get("advice") or "",
-        "goles": p.get("under_over") or "",
-    })
+    break
 
-items.sort(key=lambda x: x["prob"], reverse=True)
+texto = "".join(b.text for b in r.content if b.type == "text")
+items = []
+try:
+    crudo = json.loads(texto[texto.index("["): texto.rindex("]") + 1])
+    for x in crudo:
+        probs = {k: int(x["probs"][k]) for k in ("local", "empate", "visita")}
+        pick = max(probs, key=probs.get)
+        items.append({"liga": x.get("liga", ""), "fecha": x.get("fecha", ""),
+                      "local": x["local"], "visita": x["visita"], "probs": probs,
+                      "pick": pick, "prob": probs[pick],
+                      "consejo": x.get("consejo", ""), "goles": "",
+                      "analisis": x.get("analisis", "")})
+except Exception as e:
+    print("No pude leer la respuesta:", e, texto[:500])
 
-# 3. Análisis de Claude solo para los mejores (ahorra costo)
-analisis = ""
+items.sort(key=lambda i: i["prob"], reverse=True)
 top = items[:TOP_TELEGRAM]
-if top:
-    try:
-        c = anthropic.Anthropic()
-        m = c.messages.create(
-            model="claude-sonnet-5-5", max_tokens=700,
-            messages=[{"role": "user", "content":
-                "Estos son los pronósticos con mayor probabilidad según un modelo estadístico. "
-                "Para cada uno escribe 2 líneas con el factor clave que lo sustenta o el riesgo "
-                "principal. Sé honesto: ninguna probabilidad es certeza.\n"
-                + json.dumps(top, ensure_ascii=False)}])
-        analisis = m.content[0].text
-    except Exception as e:
-        analisis = f"(Análisis no disponible: {e})"
-
-# 4. Guardar para el dashboard
+analisis = "\n\n".join(f"{i['local']} vs {i['visita']}: {i['analisis']}" for i in top)
 
 with open("data.json", "w", encoding="utf-8") as fh:
-    json.dump({"actualizado": datetime.datetime.now(ZoneInfo(TZ)).isoformat(),
-               "partidos": items, "analisis": analisis}, fh, ensure_ascii=False, indent=1)
+    json.dump({"actualizado": ahora.isoformat(), "partidos": items, "analisis": analisis},
+              fh, ensure_ascii=False, indent=1)
 
-# 5. Telegram
 nombre = {"local": "Gana local", "empate": "Empate", "visita": "Gana visita"}
 txt = f"⚽ Pronósticos más probables ({hoy})\n\n"
 for i in top:
-    txt += (f"{i['liga']}: {i['local']} vs {i['visita']}\n"
-            f"→ {nombre[i['pick']]} ({i['prob']}%)\n\n")
+    txt += f"{i['liga']}: {i['local']} vs {i['visita']}\n→ {nombre[i['pick']]} ({i['prob']}%)\n\n"
 if not top:
-    txt += "Hoy no hay partidos de las ligas configuradas."
-if analisis:
-    txt += "\n" + analisis
+    txt += "Hoy no encontré partidos de las ligas configuradas (o hubo un error al leer la respuesta)."
+else:
+    txt += "Son estimaciones, no certezas."
 url = os.environ.get("DASHBOARD_URL")
 if url:
     txt += f"\n\nVer todos: {url}"
