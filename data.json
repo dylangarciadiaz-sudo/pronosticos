@@ -1,5 +1,38 @@
 {
- "actualizado": "2026-11-10T07:45:23.752343-05:00",
- "partidos": [],
- "analisis": ""
+ "actualizado": "2026-11-11T07:47:40.600274-05:00",
+ "partidos": [
+  {
+   "liga": "Liga BetPlay",
+   "fecha": "2026-11-12T19:00:00-05:00",
+   "local": "Llaneros",
+   "visita": "Boyacá Chicó",
+   "probs": {
+    "local": 46,
+    "empate": 29,
+    "visita": 25
+   },
+   "pick": "local",
+   "prob": 46,
+   "consejo": "Local o empate (doble oportunidad 1X); evitar apuesta fuerte al 1X2",
+   "goles": "",
+   "analisis": "Factor clave: Llaneros (23 pts) es local y viene de ganar 2-1 en Alianza. Chicó (19 pts) está eliminado, tiene diferencia de gol de -14 o -15 y aparece entre los descendidos. El riesgo principal es que ninguno se juega nada y el partido sea impredecible. No encontré cuotas ni bajas confirmadas, así que la confianza es baja."
+  },
+  {
+   "liga": "Liga BetPlay",
+   "fecha": "2026-11-12T17:00:00-05:00",
+   "local": "Deportivo Pasto",
+   "visita": "Junior",
+   "probs": {
+    "local": 40,
+    "empate": 28,
+    "visita": 32
+   },
+   "pick": "local",
+   "prob": 40,
+   "consejo": "Doble oportunidad local o visitante (sin empate) o ambos marcan; evitar apuesta fuerte al 1X2",
+   "goles": "",
+   "analisis": "Factor clave: ambos están eliminados de los cuadrangulares (Pasto 15 pts, Junior 19 pts) y juegan la última fecha por compromiso. Pasto es local en Pasto y viene de perder con Santa Fe, y su defensa recibe goles. El riesgo principal es la motivación baja y la rotación en ambos lados. No encontré cuotas ni bajas confirmadas, así que la confianza es baja."
+  }
+ ],
+ "analisis": "Llaneros vs Boyacá Chicó: Factor clave: Llaneros (23 pts) es local y viene de ganar 2-1 en Alianza. Chicó (19 pts) está eliminado, tiene diferencia de gol de -14 o -15 y aparece entre los descendidos. El riesgo principal es que ninguno se juega nada y el partido sea impredecible. No encontré cuotas ni bajas confirmadas, así que la confianza es baja.\n\nDeportivo Pasto vs Junior: Factor clave: ambos están eliminados de los cuadrangulares (Pasto 15 pts, Junior 19 pts) y juegan la última fecha por compromiso. Pasto es local en Pasto y viene de perder con Santa Fe, y su defensa recibe goles. El riesgo principal es la motivación baja y la rotación en ambos lados. No encontré cuotas ni bajas confirmadas, así que la confianza es baja."
 }
