@@ -1,38 +1,54 @@
 {
- "actualizado": "2026-11-11T07:47:40.600274-05:00",
+ "actualizado": "2026-11-12T07:49:29.728489-05:00",
  "partidos": [
   {
-   "liga": "Liga BetPlay",
-   "fecha": "2026-11-12T19:00:00-05:00",
-   "local": "Llaneros",
-   "visita": "Boyacá Chicó",
-   "probs": {
-    "local": 46,
-    "empate": 29,
-    "visita": 25
-   },
-   "pick": "local",
-   "prob": 46,
-   "consejo": "Local o empate (doble oportunidad 1X); evitar apuesta fuerte al 1X2",
-   "goles": "",
-   "analisis": "Factor clave: Llaneros (23 pts) es local y viene de ganar 2-1 en Alianza. Chicó (19 pts) está eliminado, tiene diferencia de gol de -14 o -15 y aparece entre los descendidos. El riesgo principal es que ninguno se juega nada y el partido sea impredecible. No encontré cuotas ni bajas confirmadas, así que la confianza es baja."
-  },
-  {
-   "liga": "Liga BetPlay",
+   "liga": "Liga BetPlay (Colombia)",
    "fecha": "2026-11-12T17:00:00-05:00",
    "local": "Deportivo Pasto",
    "visita": "Junior",
    "probs": {
-    "local": 40,
-    "empate": 28,
-    "visita": 32
+    "local": 12,
+    "empate": 22,
+    "visita": 66
+   },
+   "pick": "visita",
+   "prob": 66,
+   "consejo": "Junior o empate (doble oportunidad)",
+   "goles": "",
+   "analisis": "Pasto ya está eliminado de los cuadrangulares y Junior es el favorito claro del mercado. Codere paga Junior a 1.14, empate a 8.00 y Pasto a 18.00, pero esas cuotas parecen extremas y las fuentes se contradicen. Riesgo principal: con la fase regular casi cerrada, Junior podría rotar o jugar sin motivación en la altura de Pasto. No encontré lesiones confirmadas, así que la confianza es media-baja."
+  },
+  {
+   "liga": "Liga BetPlay (Colombia)",
+   "fecha": "2026-11-12T19:00:00-05:00",
+   "local": "Llaneros",
+   "visita": "Boyacá Chicó",
+   "probs": {
+    "local": 58,
+    "empate": 26,
+    "visita": 16
    },
    "pick": "local",
-   "prob": 40,
-   "consejo": "Doble oportunidad local o visitante (sin empate) o ambos marcan; evitar apuesta fuerte al 1X2",
+   "prob": 58,
+   "consejo": "Llaneros gana o empata (doble oportunidad)",
    "goles": "",
-   "analisis": "Factor clave: ambos están eliminados de los cuadrangulares (Pasto 15 pts, Junior 19 pts) y juegan la última fecha por compromiso. Pasto es local en Pasto y viene de perder con Santa Fe, y su defensa recibe goles. El riesgo principal es la motivación baja y la rotación en ambos lados. No encontré cuotas ni bajas confirmadas, así que la confianza es baja."
+   "analisis": "Llaneros juega en casa contra un Chicó ya descendido y con mala forma reciente (V-D-D-D-E). Las cuotas que vi rondan 1.56 / 3.70 / 5.76. Riesgo principal: es un partido de trámite para ambos, con poca motivación y probable rotación, y no hay datos fiables de lesiones. Confianza baja-media."
+  },
+  {
+   "liga": "Liga BetPlay (Colombia)",
+   "fecha": "2026-11-13T20:30:00-05:00",
+   "local": "Internacional de Bogotá",
+   "visita": "Independiente Santa Fe",
+   "probs": {
+    "local": 29,
+    "empate": 30,
+    "visita": 41
+   },
+   "pick": "visita",
+   "prob": 41,
+   "consejo": "Menos de 2.5 goles o Santa Fe/empate",
+   "goles": "",
+   "analisis": "Santa Fe es algo favorito por su nivel, pero ya tiene el cupo a cuadrangulares y puede rotar. Inter viene de perder 2-1 ante Chicó y tiene problemas atrás. Hay pocas bajas confirmadas y las cuotas que encontré (cerca de 3.25 / 3.39 / 2.21) son poco fiables, así que repartí las probabilidades. Confianza baja."
   }
  ],
- "analisis": "Llaneros vs Boyacá Chicó: Factor clave: Llaneros (23 pts) es local y viene de ganar 2-1 en Alianza. Chicó (19 pts) está eliminado, tiene diferencia de gol de -14 o -15 y aparece entre los descendidos. El riesgo principal es que ninguno se juega nada y el partido sea impredecible. No encontré cuotas ni bajas confirmadas, así que la confianza es baja.\n\nDeportivo Pasto vs Junior: Factor clave: ambos están eliminados de los cuadrangulares (Pasto 15 pts, Junior 19 pts) y juegan la última fecha por compromiso. Pasto es local en Pasto y viene de perder con Santa Fe, y su defensa recibe goles. El riesgo principal es la motivación baja y la rotación en ambos lados. No encontré cuotas ni bajas confirmadas, así que la confianza es baja."
+ "analisis": "Deportivo Pasto vs Junior: Pasto ya está eliminado de los cuadrangulares y Junior es el favorito claro del mercado. Codere paga Junior a 1.14, empate a 8.00 y Pasto a 18.00, pero esas cuotas parecen extremas y las fuentes se contradicen. Riesgo principal: con la fase regular casi cerrada, Junior podría rotar o jugar sin motivación en la altura de Pasto. No encontré lesiones confirmadas, así que la confianza es media-baja.\n\nLlaneros vs Boyacá Chicó: Llaneros juega en casa contra un Chicó ya descendido y con mala forma reciente (V-D-D-D-E). Las cuotas que vi rondan 1.56 / 3.70 / 5.76. Riesgo principal: es un partido de trámite para ambos, con poca motivación y probable rotación, y no hay datos fiables de lesiones. Confianza baja-media.\n\nInternacional de Bogotá vs Independiente Santa Fe: Santa Fe es algo favorito por su nivel, pero ya tiene el cupo a cuadrangulares y puede rotar. Inter viene de perder 2-1 ante Chicó y tiene problemas atrás. Hay pocas bajas confirmadas y las cuotas que encontré (cerca de 3.25 / 3.39 / 2.21) son poco fiables, así que repartí las probabilidades. Confianza baja."
 }
