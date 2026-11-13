@@ -1,54 +1,134 @@
 {
- "actualizado": "2026-11-12T07:49:29.728489-05:00",
+ "actualizado": "2026-11-13T07:47:08.473704-05:00",
  "partidos": [
   {
-   "liga": "Liga BetPlay (Colombia)",
-   "fecha": "2026-11-12T17:00:00-05:00",
-   "local": "Deportivo Pasto",
-   "visita": "Junior",
+   "liga": "Liga BetPlay",
+   "fecha": "2026-11-14T15:30:00-05:00",
+   "local": "Millonarios",
+   "visita": "Alianza FC",
    "probs": {
-    "local": 12,
-    "empate": 22,
-    "visita": 66
-   },
-   "pick": "visita",
-   "prob": 66,
-   "consejo": "Junior o empate (doble oportunidad)",
-   "goles": "",
-   "analisis": "Pasto ya está eliminado de los cuadrangulares y Junior es el favorito claro del mercado. Codere paga Junior a 1.14, empate a 8.00 y Pasto a 18.00, pero esas cuotas parecen extremas y las fuentes se contradicen. Riesgo principal: con la fase regular casi cerrada, Junior podría rotar o jugar sin motivación en la altura de Pasto. No encontré lesiones confirmadas, así que la confianza es media-baja."
-  },
-  {
-   "liga": "Liga BetPlay (Colombia)",
-   "fecha": "2026-11-12T19:00:00-05:00",
-   "local": "Llaneros",
-   "visita": "Boyacá Chicó",
-   "probs": {
-    "local": 58,
-    "empate": 26,
-    "visita": 16
+    "local": 68,
+    "empate": 20,
+    "visita": 12
    },
    "pick": "local",
-   "prob": 58,
-   "consejo": "Llaneros gana o empata (doble oportunidad)",
+   "prob": 68,
+   "consejo": "Millonarios gana (o doble oportunidad 1X como opción conservadora)",
    "goles": "",
-   "analisis": "Llaneros juega en casa contra un Chicó ya descendido y con mala forma reciente (V-D-D-D-E). Las cuotas que vi rondan 1.56 / 3.70 / 5.76. Riesgo principal: es un partido de trámite para ambos, con poca motivación y probable rotación, y no hay datos fiables de lesiones. Confianza baja-media."
+   "analisis": "Millonarios depende de sí mismo, con una victoria en casa que lo clasifica. Las cuotas lo ponen cerca de 1.30–1.35 y Alianza (puesto 15–16) ya está eliminado. El riesgo son las bajas de Sergio Mosquera y Leonardo Castro por suspensión y la duda de Daniel Ruiz, además de la presión de definir la clasificación."
   },
   {
-   "liga": "Liga BetPlay (Colombia)",
+   "liga": "Liga BetPlay",
+   "fecha": "2026-11-14T15:30:00-05:00",
+   "local": "Cúcuta Deportivo",
+   "visita": "Jaguares de Córdoba",
+   "probs": {
+    "local": 45,
+    "empate": 29,
+    "visita": 26
+   },
+   "pick": "local",
+   "prob": 45,
+   "consejo": "Doble oportunidad local o empate (1X)",
+   "goles": "",
+   "analisis": "Cúcuta juega en casa y conserva mínimas opciones de clasificar, aunque llega de perder con Junior. Falta información de Jaguares, cuotas y bajas. Confianza baja y el riesgo es una motivación desigual."
+  },
+  {
+   "liga": "Liga BetPlay",
+   "fecha": "2026-11-14T15:30:00-05:00",
+   "local": "Atlético Nacional",
+   "visita": "Once Caldas",
+   "probs": {
+    "local": 42,
+    "empate": 28,
+    "visita": 30
+   },
+   "pick": "local",
+   "prob": 42,
+   "consejo": "Menos de 3.5 goles (confianza baja en 1X2)",
+   "goles": "",
+   "analisis": "Nacional es líder (40 pts) y está clasificado, pero tiene bajas por selección (Rengifo, Velásquez) y Cardona, y viene de la semifinal de Copa. Once Caldas se juega la clasificación. No hallé cuotas actuales y hay fuentes que discrepan sobre la sede, así que reparto las probabilidades."
+  },
+  {
+   "liga": "Liga BetPlay",
+   "fecha": "2026-11-14T15:30:00-05:00",
+   "local": "Atlético Bucaramanga",
+   "visita": "Fortaleza",
+   "probs": {
+    "local": 42,
+    "empate": 29,
+    "visita": 29
+   },
+   "pick": "local",
+   "prob": 42,
+   "consejo": "Sin apuesta clara; local o empate (1X) con stake bajo",
+   "goles": "",
+   "analisis": "Bucaramanga ya está clasificado y juega en casa, pero podría rotar la nómina. No encontré cuotas, forma reciente ni lesiones de ninguno de los dos, así que reparto las probabilidades con confianza muy baja."
+  },
+  {
+   "liga": "Liga BetPlay",
+   "fecha": "2026-11-14T15:30:00-05:00",
+   "local": "Deportivo Cali",
+   "visita": "Deportes Tolima",
+   "probs": {
+    "local": 40,
+    "empate": 30,
+    "visita": 30
+   },
+   "pick": "local",
+   "prob": 40,
+   "consejo": "Tolima o empate (X2)",
+   "goles": "",
+   "analisis": "Cali ya está clasificado y es favorito corto (cuota ~2.12), mientras Tolima (26 pts) necesita no perder y esperar otros resultados. Tolima tiene más motivación y buenos antecedentes en Palmaseca. El riesgo es que Tolima llegue con la baja del 'Chino' Sandoval por suspensión."
+  },
+  {
+   "liga": "Liga BetPlay",
+   "fecha": "2026-11-14T15:30:00-05:00",
+   "local": "Deportivo Pereira",
+   "visita": "América de Cali",
+   "probs": {
+    "local": 38,
+    "empate": 30,
+    "visita": 32
+   },
+   "pick": "local",
+   "prob": 38,
+   "consejo": "Sin apuesta clara; evitar 1X2",
+   "goles": "",
+   "analisis": "América ya está clasificado y Pereira juega por poco, así que la motivación es incierta para ambos. No encontré cuotas, forma reciente detallada ni lesiones. Confianza muy baja."
+  },
+  {
+   "liga": "Liga BetPlay",
    "fecha": "2026-11-13T20:30:00-05:00",
    "local": "Internacional de Bogotá",
    "visita": "Independiente Santa Fe",
    "probs": {
-    "local": 29,
+    "local": 34,
     "empate": 30,
-    "visita": 41
+    "visita": 36
    },
    "pick": "visita",
-   "prob": 41,
-   "consejo": "Menos de 2.5 goles o Santa Fe/empate",
+   "prob": 36,
+   "consejo": "Sin apuesta clara; empate o visita (X2) con stake bajo",
    "goles": "",
-   "analisis": "Santa Fe es algo favorito por su nivel, pero ya tiene el cupo a cuadrangulares y puede rotar. Inter viene de perder 2-1 ante Chicó y tiene problemas atrás. Hay pocas bajas confirmadas y las cuotas que encontré (cerca de 3.25 / 3.39 / 2.21) son poco fiables, así que repartí las probabilidades. Confianza baja."
+   "analisis": "Santa Fe ya está clasificado y sin opción matemática de ser cabeza de grupo, por eso el partido se movió de horario y podría rotar. No encontré cuotas ni bajas confiables: confianza baja, y el riesgo principal es una alineación alterna de Santa Fe."
+  },
+  {
+   "liga": "Liga BetPlay",
+   "fecha": "2026-11-14T15:30:00-05:00",
+   "local": "Águilas Doradas",
+   "visita": "Independiente Medellín",
+   "probs": {
+    "local": 36,
+    "empate": 30,
+    "visita": 34
+   },
+   "pick": "local",
+   "prob": 36,
+   "consejo": "Doble oportunidad Águilas o empate (cuota ~1.43)",
+   "goles": "",
+   "analisis": "Águilas necesita ganar para seguir vivo y casi no pierde en casa. A Medellín le basta el empate para clasificar. Las cuotas están parejas (~2.50/3.25/2.70), y el riesgo principal es un partido cerrado que termine en empate."
   }
  ],
- "analisis": "Deportivo Pasto vs Junior: Pasto ya está eliminado de los cuadrangulares y Junior es el favorito claro del mercado. Codere paga Junior a 1.14, empate a 8.00 y Pasto a 18.00, pero esas cuotas parecen extremas y las fuentes se contradicen. Riesgo principal: con la fase regular casi cerrada, Junior podría rotar o jugar sin motivación en la altura de Pasto. No encontré lesiones confirmadas, así que la confianza es media-baja.\n\nLlaneros vs Boyacá Chicó: Llaneros juega en casa contra un Chicó ya descendido y con mala forma reciente (V-D-D-D-E). Las cuotas que vi rondan 1.56 / 3.70 / 5.76. Riesgo principal: es un partido de trámite para ambos, con poca motivación y probable rotación, y no hay datos fiables de lesiones. Confianza baja-media.\n\nInternacional de Bogotá vs Independiente Santa Fe: Santa Fe es algo favorito por su nivel, pero ya tiene el cupo a cuadrangulares y puede rotar. Inter viene de perder 2-1 ante Chicó y tiene problemas atrás. Hay pocas bajas confirmadas y las cuotas que encontré (cerca de 3.25 / 3.39 / 2.21) son poco fiables, así que repartí las probabilidades. Confianza baja."
+ "analisis": "Millonarios vs Alianza FC: Millonarios depende de sí mismo, con una victoria en casa que lo clasifica. Las cuotas lo ponen cerca de 1.30–1.35 y Alianza (puesto 15–16) ya está eliminado. El riesgo son las bajas de Sergio Mosquera y Leonardo Castro por suspensión y la duda de Daniel Ruiz, además de la presión de definir la clasificación.\n\nCúcuta Deportivo vs Jaguares de Córdoba: Cúcuta juega en casa y conserva mínimas opciones de clasificar, aunque llega de perder con Junior. Falta información de Jaguares, cuotas y bajas. Confianza baja y el riesgo es una motivación desigual.\n\nAtlético Nacional vs Once Caldas: Nacional es líder (40 pts) y está clasificado, pero tiene bajas por selección (Rengifo, Velásquez) y Cardona, y viene de la semifinal de Copa. Once Caldas se juega la clasificación. No hallé cuotas actuales y hay fuentes que discrepan sobre la sede, así que reparto las probabilidades.\n\nAtlético Bucaramanga vs Fortaleza: Bucaramanga ya está clasificado y juega en casa, pero podría rotar la nómina. No encontré cuotas, forma reciente ni lesiones de ninguno de los dos, así que reparto las probabilidades con confianza muy baja.\n\nDeportivo Cali vs Deportes Tolima: Cali ya está clasificado y es favorito corto (cuota ~2.12), mientras Tolima (26 pts) necesita no perder y esperar otros resultados. Tolima tiene más motivación y buenos antecedentes en Palmaseca. El riesgo es que Tolima llegue con la baja del 'Chino' Sandoval por suspensión."
 }
