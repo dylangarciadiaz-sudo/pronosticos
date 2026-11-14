@@ -1,69 +1,21 @@
 {
- "actualizado": "2026-11-13T07:47:08.473704-05:00",
+ "actualizado": "2026-11-14T07:29:45.887689-05:00",
  "partidos": [
   {
    "liga": "Liga BetPlay",
    "fecha": "2026-11-14T15:30:00-05:00",
    "local": "Millonarios",
-   "visita": "Alianza FC",
+   "visita": "Alianza Valledupar",
    "probs": {
-    "local": 68,
+    "local": 71,
     "empate": 20,
-    "visita": 12
+    "visita": 9
    },
    "pick": "local",
-   "prob": 68,
-   "consejo": "Millonarios gana (o doble oportunidad 1X como opción conservadora)",
+   "prob": 71,
+   "consejo": "Millonarios gana (o hándicap -1)",
    "goles": "",
-   "analisis": "Millonarios depende de sí mismo, con una victoria en casa que lo clasifica. Las cuotas lo ponen cerca de 1.30–1.35 y Alianza (puesto 15–16) ya está eliminado. El riesgo son las bajas de Sergio Mosquera y Leonardo Castro por suspensión y la duda de Daniel Ruiz, además de la presión de definir la clasificación."
-  },
-  {
-   "liga": "Liga BetPlay",
-   "fecha": "2026-11-14T15:30:00-05:00",
-   "local": "Cúcuta Deportivo",
-   "visita": "Jaguares de Córdoba",
-   "probs": {
-    "local": 45,
-    "empate": 29,
-    "visita": 26
-   },
-   "pick": "local",
-   "prob": 45,
-   "consejo": "Doble oportunidad local o empate (1X)",
-   "goles": "",
-   "analisis": "Cúcuta juega en casa y conserva mínimas opciones de clasificar, aunque llega de perder con Junior. Falta información de Jaguares, cuotas y bajas. Confianza baja y el riesgo es una motivación desigual."
-  },
-  {
-   "liga": "Liga BetPlay",
-   "fecha": "2026-11-14T15:30:00-05:00",
-   "local": "Atlético Nacional",
-   "visita": "Once Caldas",
-   "probs": {
-    "local": 42,
-    "empate": 28,
-    "visita": 30
-   },
-   "pick": "local",
-   "prob": 42,
-   "consejo": "Menos de 3.5 goles (confianza baja en 1X2)",
-   "goles": "",
-   "analisis": "Nacional es líder (40 pts) y está clasificado, pero tiene bajas por selección (Rengifo, Velásquez) y Cardona, y viene de la semifinal de Copa. Once Caldas se juega la clasificación. No hallé cuotas actuales y hay fuentes que discrepan sobre la sede, así que reparto las probabilidades."
-  },
-  {
-   "liga": "Liga BetPlay",
-   "fecha": "2026-11-14T15:30:00-05:00",
-   "local": "Atlético Bucaramanga",
-   "visita": "Fortaleza",
-   "probs": {
-    "local": 42,
-    "empate": 29,
-    "visita": 29
-   },
-   "pick": "local",
-   "prob": 42,
-   "consejo": "Sin apuesta clara; local o empate (1X) con stake bajo",
-   "goles": "",
-   "analisis": "Bucaramanga ya está clasificado y juega en casa, pero podría rotar la nómina. No encontré cuotas, forma reciente ni lesiones de ninguno de los dos, así que reparto las probabilidades con confianza muy baja."
+   "analisis": "Millonarios depende de sí mismo para clasificar. Juega en El Campín, donde ha ganado 6 y empatado 2 de los últimos 8 ante Alianza, y las cuotas rondan 1,31/5,03/11. Alianza ya está eliminado, pero llega relajado y el duelo de mayo terminó 2-2. Con la presión de clasificar, un empate sigue siendo el riesgo."
   },
   {
    "liga": "Liga BetPlay",
@@ -71,47 +23,47 @@
    "local": "Deportivo Cali",
    "visita": "Deportes Tolima",
    "probs": {
-    "local": 40,
-    "empate": 30,
-    "visita": 30
+    "local": 45,
+    "empate": 29,
+    "visita": 26
    },
    "pick": "local",
-   "prob": 40,
-   "consejo": "Tolima o empate (X2)",
+   "prob": 45,
+   "consejo": "Cali o empate (doble oportunidad 1X) o ambos marcan",
    "goles": "",
-   "analisis": "Cali ya está clasificado y es favorito corto (cuota ~2.12), mientras Tolima (26 pts) necesita no perder y esperar otros resultados. Tolima tiene más motivación y buenos antecedentes en Palmaseca. El riesgo es que Tolima llegue con la baja del 'Chino' Sandoval por suspensión."
+   "analisis": "Cali es favorito en casa con cuotas de 2,10-2,30 y pelea por el 'punto invisible'. Tolima está obligado a no perder, así que saldrá a arriesgar. Los dos últimos duelos terminaron 1-1 y Tolima ha ganado varios cruces recientes, por lo que el partido está parejo. No encontré datos confirmados de lesiones."
   },
   {
    "liga": "Liga BetPlay",
    "fecha": "2026-11-14T15:30:00-05:00",
-   "local": "Deportivo Pereira",
-   "visita": "América de Cali",
+   "local": "Atlético Bucaramanga",
+   "visita": "Fortaleza CEIF",
    "probs": {
-    "local": 38,
-    "empate": 30,
-    "visita": 32
+    "local": 45,
+    "empate": 29,
+    "visita": 26
    },
    "pick": "local",
-   "prob": 38,
-   "consejo": "Sin apuesta clara; evitar 1X2",
+   "prob": 45,
+   "consejo": "Bucaramanga o empate (1X)",
    "goles": "",
-   "analisis": "América ya está clasificado y Pereira juega por poco, así que la motivación es incierta para ambos. No encontré cuotas, forma reciente detallada ni lesiones. Confianza muy baja."
+   "analisis": "Bucaramanga ya está clasificado y juega de local. Fortaleza llega con el golpe de la goleada 0-3 ante Medellín. No encontré cuotas ni informe de lesiones, así que la confianza es baja. El riesgo es que Bucaramanga rote por estar ya clasificado."
   },
   {
    "liga": "Liga BetPlay",
-   "fecha": "2026-11-13T20:30:00-05:00",
-   "local": "Internacional de Bogotá",
-   "visita": "Independiente Santa Fe",
+   "fecha": "2026-11-14T15:30:00-05:00",
+   "local": "Cúcuta Deportivo",
+   "visita": "Jaguares de Córdoba",
    "probs": {
-    "local": 34,
-    "empate": 30,
-    "visita": 36
+    "local": 41,
+    "empate": 29,
+    "visita": 30
    },
-   "pick": "visita",
-   "prob": 36,
-   "consejo": "Sin apuesta clara; empate o visita (X2) con stake bajo",
+   "pick": "local",
+   "prob": 41,
+   "consejo": "Local o empate (1X), con poca convicción",
    "goles": "",
-   "analisis": "Santa Fe ya está clasificado y sin opción matemática de ser cabeza de grupo, por eso el partido se movió de horario y podría rotar. No encontré cuotas ni bajas confiables: confianza baja, y el riesgo principal es una alineación alterna de Santa Fe."
+   "analisis": "Cúcuta necesita ganar y que otros resultados le salgan (casi un 'milagro'), y juega en casa. Faltan cuotas, información de bajas y forma reciente de Jaguares. Confianza baja. El riesgo es que la urgencia del local no se traduzca en goles."
   },
   {
    "liga": "Liga BetPlay",
@@ -119,16 +71,48 @@
    "local": "Águilas Doradas",
    "visita": "Independiente Medellín",
    "probs": {
-    "local": 36,
-    "empate": 30,
+    "local": 37,
+    "empate": 29,
     "visita": 34
    },
    "pick": "local",
-   "prob": 36,
-   "consejo": "Doble oportunidad Águilas o empate (cuota ~1.43)",
+   "prob": 37,
+   "consejo": "Ambos equipos marcan",
    "goles": "",
-   "analisis": "Águilas necesita ganar para seguir vivo y casi no pierde en casa. A Medellín le basta el empate para clasificar. Las cuotas están parejas (~2.50/3.25/2.70), y el riesgo principal es un partido cerrado que termine en empate."
+   "analisis": "Partido parejo, con cuotas en torno a 2,50/3,25/2,70. Águilas no ha perdido en casa (4 victorias y 4 empates en 8) y necesita ganar y esperar otros resultados. A Medellín le basta empatar para clasificar, lo que podría volverlo más cauto. Hay poco margen para una apuesta de valor en el 1X2."
+  },
+  {
+   "liga": "Liga BetPlay",
+   "fecha": "2026-11-14T15:30:00-05:00",
+   "local": "Atlético Nacional",
+   "visita": "Once Caldas",
+   "probs": {
+    "local": 37,
+    "empate": 30,
+    "visita": 33
+   },
+   "pick": "local",
+   "prob": 37,
+   "consejo": "Once Caldas o empate (1X2 muy abierto); ambos marcan",
+   "goles": "",
+   "analisis": "Las cuotas son parejas (Nacional 2,60, empate ~3,00-3,10, Once 2,85). Nacional ya es líder y está clasificado, así que podría rotar. Once Caldas necesita sumar para entrar a cuadrangulares. El riesgo principal es la incertidumbre sobre la alineación de Nacional."
+  },
+  {
+   "liga": "Liga BetPlay",
+   "fecha": "2026-11-14T15:30:00-05:00",
+   "local": "Deportivo Pereira",
+   "visita": "América de Cali",
+   "probs": {
+    "local": 36,
+    "empate": 29,
+    "visita": 35
+   },
+   "pick": "local",
+   "prob": 36,
+   "consejo": "Sin apuesta clara; evitar 1X2 o empate/doble oportunidad prudente",
+   "goles": "",
+   "analisis": "América ya está clasificado a cuadrangulares y podría administrar esfuerzos. Pereira juega en casa pero no encontré su forma reciente ni cuotas fiables. Confianza baja, por eso las probabilidades están muy repartidas."
   }
  ],
- "analisis": "Millonarios vs Alianza FC: Millonarios depende de sí mismo, con una victoria en casa que lo clasifica. Las cuotas lo ponen cerca de 1.30–1.35 y Alianza (puesto 15–16) ya está eliminado. El riesgo son las bajas de Sergio Mosquera y Leonardo Castro por suspensión y la duda de Daniel Ruiz, además de la presión de definir la clasificación.\n\nCúcuta Deportivo vs Jaguares de Córdoba: Cúcuta juega en casa y conserva mínimas opciones de clasificar, aunque llega de perder con Junior. Falta información de Jaguares, cuotas y bajas. Confianza baja y el riesgo es una motivación desigual.\n\nAtlético Nacional vs Once Caldas: Nacional es líder (40 pts) y está clasificado, pero tiene bajas por selección (Rengifo, Velásquez) y Cardona, y viene de la semifinal de Copa. Once Caldas se juega la clasificación. No hallé cuotas actuales y hay fuentes que discrepan sobre la sede, así que reparto las probabilidades.\n\nAtlético Bucaramanga vs Fortaleza: Bucaramanga ya está clasificado y juega en casa, pero podría rotar la nómina. No encontré cuotas, forma reciente ni lesiones de ninguno de los dos, así que reparto las probabilidades con confianza muy baja.\n\nDeportivo Cali vs Deportes Tolima: Cali ya está clasificado y es favorito corto (cuota ~2.12), mientras Tolima (26 pts) necesita no perder y esperar otros resultados. Tolima tiene más motivación y buenos antecedentes en Palmaseca. El riesgo es que Tolima llegue con la baja del 'Chino' Sandoval por suspensión."
+ "analisis": "Millonarios vs Alianza Valledupar: Millonarios depende de sí mismo para clasificar. Juega en El Campín, donde ha ganado 6 y empatado 2 de los últimos 8 ante Alianza, y las cuotas rondan 1,31/5,03/11. Alianza ya está eliminado, pero llega relajado y el duelo de mayo terminó 2-2. Con la presión de clasificar, un empate sigue siendo el riesgo.\n\nDeportivo Cali vs Deportes Tolima: Cali es favorito en casa con cuotas de 2,10-2,30 y pelea por el 'punto invisible'. Tolima está obligado a no perder, así que saldrá a arriesgar. Los dos últimos duelos terminaron 1-1 y Tolima ha ganado varios cruces recientes, por lo que el partido está parejo. No encontré datos confirmados de lesiones.\n\nAtlético Bucaramanga vs Fortaleza CEIF: Bucaramanga ya está clasificado y juega de local. Fortaleza llega con el golpe de la goleada 0-3 ante Medellín. No encontré cuotas ni informe de lesiones, así que la confianza es baja. El riesgo es que Bucaramanga rote por estar ya clasificado.\n\nCúcuta Deportivo vs Jaguares de Córdoba: Cúcuta necesita ganar y que otros resultados le salgan (casi un 'milagro'), y juega en casa. Faltan cuotas, información de bajas y forma reciente de Jaguares. Confianza baja. El riesgo es que la urgencia del local no se traduzca en goles.\n\nÁguilas Doradas vs Independiente Medellín: Partido parejo, con cuotas en torno a 2,50/3,25/2,70. Águilas no ha perdido en casa (4 victorias y 4 empates en 8) y necesita ganar y esperar otros resultados. A Medellín le basta empatar para clasificar, lo que podría volverlo más cauto. Hay poco margen para una apuesta de valor en el 1X2."
 }
