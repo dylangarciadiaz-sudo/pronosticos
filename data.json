@@ -1,5 +1,102 @@
 {
- "actualizado": "2026-11-18T07:52:09.487784-05:00",
- "partidos": [],
- "analisis": ""
+ "actualizado": "2026-11-19T07:52:56.585092-05:00",
+ "partidos": [
+  {
+   "liga": "Bundesliga",
+   "fecha": "2026-11-20T14:30:00-05:00",
+   "local": "Bayern Múnich",
+   "visita": "Colonia",
+   "probs": {
+    "local": 82,
+    "empate": 11,
+    "visita": 7
+   },
+   "pick": "local",
+   "prob": 82,
+   "consejo": "Victoria Bayern o hándicap -1 (sin cuota segura)",
+   "goles": "",
+   "analisis": "Bayern lleva 11 victorias y 5 empates en 16 partidos de esta temporada, está invicto en casa y recibe a un Colonia sin victorias de visitante y con bajas en defensa (Hübers, Van den Berg). El riesgo es que Bayern tiene muchas bajas (Neuer, Davies, Gnabry, Díaz en duda) y Kompany regresa al banquillo. Una casa de apuestas daba a Bayern como favorito fuerte (-1800), pero ese dato puede estar desactualizado."
+  },
+  {
+   "liga": "LaLiga",
+   "fecha": "2026-11-20T15:00:00-05:00",
+   "local": "Athletic Club",
+   "visita": "Espanyol",
+   "probs": {
+    "local": 58,
+    "empate": 26,
+    "visita": 16
+   },
+   "pick": "local",
+   "prob": 58,
+   "consejo": "Doble oportunidad 1X (Athletic o empate)",
+   "goles": "",
+   "analisis": "Athletic (7º) juega en San Mamés contra un Espanyol (13º) con pocas bajas pero menos nivel. Athletic llega con muchas bajas (Vivian, Guruzeta, Sannadi y Paredes en duda) y viene de empatar en Osasuna. La cuota local de una casa era cercana a -210, aunque ese dato puede ser antiguo."
+  },
+  {
+   "liga": "Ligue 1",
+   "fecha": "2026-11-20T14:45:00-05:00",
+   "local": "Troyes",
+   "visita": "Le Havre",
+   "probs": {
+    "local": 42,
+    "empate": 30,
+    "visita": 28
+   },
+   "pick": "local",
+   "prob": 42,
+   "consejo": "Menos de 2.5 goles",
+   "goles": "",
+   "analisis": "Duelo de los dos últimos de la tabla. Troyes (17º, 8 pts) es el equipo con menos goles de la liga, pero Le Havre no ha ganado, lleva seis derrotas seguidas y tiene cinco bajas. El riesgo principal es el debut del técnico Ismael en Le Havre, que puede dar un rebote anímico; las cuotas rondaban Troyes 2.10-2.15, empate 3.10 y Le Havre 3.40."
+  },
+  {
+   "liga": "Liga BetPlay",
+   "fecha": "2026-11-20T20:40:00-05:00",
+   "local": "Deportivo Cali",
+   "visita": "Millonarios",
+   "probs": {
+    "local": 42,
+    "empate": 29,
+    "visita": 29
+   },
+   "pick": "local",
+   "prob": 42,
+   "consejo": "Doble oportunidad 1X (Cali o empate)",
+   "goles": "",
+   "analisis": "Cali terminó con 35 pts y es local; Millonarios clasificó con lo justo (30 pts) y sumó poco en los cruces directos. Cali empató 2-2 con Tolima en la última fecha, y Millonarios tiene plantel para dar sorpresas. No encontré cuotas ni informes de lesiones, así que la confianza es baja."
+  },
+  {
+   "liga": "Liga BetPlay",
+   "fecha": "2026-11-20T18:35:00-05:00",
+   "local": "Atlético Bucaramanga",
+   "visita": "América de Cali",
+   "probs": {
+    "local": 38,
+    "empate": 32,
+    "visita": 30
+   },
+   "pick": "local",
+   "prob": 38,
+   "consejo": "Empate o local (1X), baja confianza",
+   "goles": "",
+   "analisis": "Los dos están igualados: empataron 1-1 en el todos contra todos, Bucaramanga ganó 1-0 a Fortaleza y América 2-0 a Pereira. América tiene la ventaja deportiva por ser cabeza de serie, y Bucaramanga juega en casa. No hallé cuotas ni datos de lesiones, así que la confianza es baja."
+  },
+  {
+   "liga": "Liga BetPlay",
+   "fecha": "2026-11-20T16:30:00-05:00",
+   "local": "Independiente Medellín",
+   "visita": "Independiente Santa Fe",
+   "probs": {
+    "local": 37,
+    "empate": 32,
+    "visita": 31
+   },
+   "pick": "local",
+   "prob": 37,
+   "consejo": "Menos de 2.5 goles (confianza baja)",
+   "goles": "",
+   "analisis": "Primera fecha del Grupo A. Santa Fe terminó mejor (34 pts contra 32) y ganó 1-0 a Medellín en el todos contra todos. Medellín juega en casa y llegó con una victoria 1-0 en la última fecha. No encontré cuotas ni partes médicos fiables, así que la estimación tiene mucha incertidumbre."
+  }
+ ],
+ "analisis": "Bayern Múnich vs Colonia: Bayern lleva 11 victorias y 5 empates en 16 partidos de esta temporada, está invicto en casa y recibe a un Colonia sin victorias de visitante y con bajas en defensa (Hübers, Van den Berg). El riesgo es que Bayern tiene muchas bajas (Neuer, Davies, Gnabry, Díaz en duda) y Kompany regresa al banquillo. Una casa de apuestas daba a Bayern como favorito fuerte (-1800), pero ese dato puede estar desactualizado.\n\nAthletic Club vs Espanyol: Athletic (7º) juega en San Mamés contra un Espanyol (13º) con pocas bajas pero menos nivel. Athletic llega con muchas bajas (Vivian, Guruzeta, Sannadi y Paredes en duda) y viene de empatar en Osasuna. La cuota local de una casa era cercana a -210, aunque ese dato puede ser antiguo.\n\nTroyes vs Le Havre: Duelo de los dos últimos de la tabla. Troyes (17º, 8 pts) es el equipo con menos goles de la liga, pero Le Havre no ha ganado, lleva seis derrotas seguidas y tiene cinco bajas. El riesgo principal es el debut del técnico Ismael en Le Havre, que puede dar un rebote anímico; las cuotas rondaban Troyes 2.10-2.15, empate 3.10 y Le Havre 3.40.\n\nDeportivo Cali vs Millonarios: Cali terminó con 35 pts y es local; Millonarios clasificó con lo justo (30 pts) y sumó poco en los cruces directos. Cali empató 2-2 con Tolima en la última fecha, y Millonarios tiene plantel para dar sorpresas. No encontré cuotas ni informes de lesiones, así que la confianza es baja.\n\nAtlético Bucaramanga vs América de Cali: Los dos están igualados: empataron 1-1 en el todos contra todos, Bucaramanga ganó 1-0 a Fortaleza y América 2-0 a Pereira. América tiene la ventaja deportiva por ser cabeza de serie, y Bucaramanga juega en casa. No hallé cuotas ni datos de lesiones, así que la confianza es baja."
 }
