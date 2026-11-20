@@ -1,102 +1,166 @@
 {
- "actualizado": "2026-11-19T07:52:56.585092-05:00",
+ "actualizado": "2026-11-20T07:49:45.841637-05:00",
  "partidos": [
   {
-   "liga": "Bundesliga",
-   "fecha": "2026-11-20T14:30:00-05:00",
-   "local": "Bayern Múnich",
-   "visita": "Colonia",
+   "liga": "LaLiga",
+   "fecha": "2026-11-21T15:00:00-05:00",
+   "local": "Real Madrid",
+   "visita": "Celta de Vigo",
    "probs": {
-    "local": 82,
-    "empate": 11,
+    "local": 79,
+    "empate": 14,
     "visita": 7
    },
    "pick": "local",
-   "prob": 82,
-   "consejo": "Victoria Bayern o hándicap -1 (sin cuota segura)",
+   "prob": 79,
+   "consejo": "Real Madrid gana (handicap -1 como opción más arriesgada)",
    "goles": "",
-   "analisis": "Bayern lleva 11 victorias y 5 empates en 16 partidos de esta temporada, está invicto en casa y recibe a un Colonia sin victorias de visitante y con bajas en defensa (Hübers, Van den Berg). El riesgo es que Bayern tiene muchas bajas (Neuer, Davies, Gnabry, Díaz en duda) y Kompany regresa al banquillo. Una casa de apuestas daba a Bayern como favorito fuerte (-1800), pero ese dato puede estar desactualizado."
+   "analisis": "Las cuotas dan al Madrid cerca del 80% (1,19 a 1,24) y el Celta tiene dudas (Borja Iglesias, Starfelt). Riesgo: el Madrid juega Champions contra el PSV el martes, puede rotar, y tiene bajas como Rodrygo, Asencio y Mendy. Con cuota tan baja el valor es escaso."
   },
   {
-   "liga": "LaLiga",
-   "fecha": "2026-11-20T15:00:00-05:00",
-   "local": "Athletic Club",
-   "visita": "Espanyol",
+   "liga": "Premier League",
+   "fecha": "2026-11-21T07:30:00-05:00",
+   "local": "Manchester City",
+   "visita": "Fulham",
+   "probs": {
+    "local": 64,
+    "empate": 21,
+    "visita": 15
+   },
+   "pick": "local",
+   "prob": 64,
+   "consejo": "Manchester City gana (o doble oportunidad 1X)",
+   "goles": "",
+   "analisis": "City es claro favorito en el Etihad: DraftKings le pone -250 y es tercero en la tabla. Dos fuentes dan formas recientes distintas para City y no pude confirmar las bajas, así que bajé la confianza. Riesgo: Fulham llega con buenos resultados recientes y puede cerrar el partido."
+  },
+  {
+   "liga": "Serie A",
+   "fecha": "2026-11-21T14:45:00-05:00",
+   "local": "Napoli",
+   "visita": "Torino",
    "probs": {
     "local": 58,
-    "empate": 26,
-    "visita": 16
+    "empate": 25,
+    "visita": 17
    },
    "pick": "local",
    "prob": 58,
-   "consejo": "Doble oportunidad 1X (Athletic o empate)",
+   "consejo": "Napoli gana o doble oportunidad 1X",
    "goles": "",
-   "analisis": "Athletic (7º) juega en San Mamés contra un Espanyol (13º) con pocas bajas pero menos nivel. Athletic llega con muchas bajas (Vivian, Guruzeta, Sannadi y Paredes en duda) y viene de empatar en Osasuna. La cuota local de una casa era cercana a -210, aunque ese dato puede ser antiguo."
+   "analisis": "Napoli es favorito por jerarquía y por jugar en casa, pero no pude verificar forma, lesiones ni cuotas. Por eso mantengo la estimación prudente. Riesgo: Torino suele ser un rival cerrado y el partido puede terminar con pocos goles."
+  },
+  {
+   "liga": "Premier League",
+   "fecha": "2026-11-21T10:00:00-05:00",
+   "local": "Tottenham Hotspur",
+   "visita": "Ipswich Town",
+   "probs": {
+    "local": 57,
+    "empate": 23,
+    "visita": 20
+   },
+   "pick": "local",
+   "prob": 57,
+   "consejo": "Tottenham gana o doble oportunidad 1X",
+   "goles": "",
+   "analisis": "Tottenham es favorito (-185 en DraftKings) y suma 3 victorias en sus últimos 5 partidos. Ipswich viene irregular con empates y una derrota. No pude revisar lesiones, así que la confianza es media. Riesgo: Tottenham puede ser irregular y no cerrar el partido."
+  },
+  {
+   "liga": "Premier League",
+   "fecha": "2026-11-21T12:30:00-05:00",
+   "local": "Newcastle United",
+   "visita": "Arsenal",
+   "probs": {
+    "local": 22,
+    "empate": 22,
+    "visita": 56
+   },
+   "pick": "visita",
+   "prob": 56,
+   "consejo": "Arsenal gana o Menos de 2,5 goles",
+   "goles": "",
+   "analisis": "Arsenal llega con 5 victorias seguidas y buena solidez defensiva. Newcastle ha perdido 7 partidos de local en 2026 y tiene bajas como Joelinton. Cuotas: Arsenal 11/20, empate 3/1, Newcastle 9/2. Riesgo: Saka está lesionado y Arsenal gana muchos partidos por un gol, así que un empate es posible."
   },
   {
    "liga": "Ligue 1",
-   "fecha": "2026-11-20T14:45:00-05:00",
-   "local": "Troyes",
-   "visita": "Le Havre",
+   "fecha": "2026-11-21T11:15:00-05:00",
+   "local": "OGC Nice",
+   "visita": "Paris Saint-Germain",
    "probs": {
-    "local": 42,
-    "empate": 30,
-    "visita": 28
+    "local": 23,
+    "empate": 25,
+    "visita": 52
    },
-   "pick": "local",
-   "prob": 42,
-   "consejo": "Menos de 2.5 goles",
+   "pick": "visita",
+   "prob": 52,
+   "consejo": "PSG o empate (doble oportunidad X2)",
    "goles": "",
-   "analisis": "Duelo de los dos últimos de la tabla. Troyes (17º, 8 pts) es el equipo con menos goles de la liga, pero Le Havre no ha ganado, lleva seis derrotas seguidas y tiene cinco bajas. El riesgo principal es el debut del técnico Ismael en Le Havre, que puede dar un rebote anímico; las cuotas rondaban Troyes 2.10-2.15, empate 3.10 y Le Havre 3.40."
+   "analisis": "PSG lidera la liga con 23 puntos y ganó sus últimos 5 partidos. Nice es sexto y también llega en buena racha en casa. No encontré cuotas ni bajas, así que la confianza es media. Riesgo: PSG juega Champions contra la Roma el 25/11 y puede rotar."
   },
   {
-   "liga": "Liga BetPlay",
-   "fecha": "2026-11-20T20:40:00-05:00",
-   "local": "Deportivo Cali",
-   "visita": "Millonarios",
+   "liga": "Ligue 1",
+   "fecha": "2026-11-21T14:45:00-05:00",
+   "local": "LOSC Lille",
+   "visita": "Olympique Lyonnais",
    "probs": {
-    "local": 42,
-    "empate": 29,
-    "visita": 29
+    "local": 47,
+    "empate": 27,
+    "visita": 26
    },
    "pick": "local",
-   "prob": 42,
-   "consejo": "Doble oportunidad 1X (Cali o empate)",
+   "prob": 47,
+   "consejo": "Lille no pierde (1X)",
    "goles": "",
-   "analisis": "Cali terminó con 35 pts y es local; Millonarios clasificó con lo justo (30 pts) y sumó poco en los cruces directos. Cali empató 2-2 con Tolima en la última fecha, y Millonarios tiene plantel para dar sorpresas. No encontré cuotas ni informes de lesiones, así que la confianza es baja."
+   "analisis": "Lille juega en casa y no pierde en sus últimos cinco partidos (2 victorias, 2 empates y 1 más con resultado positivo en el registro). Lyon es muy irregular, alternando derrotas y victorias. No encontré cuotas ni lesiones. Riesgo: Lyon puede sorprender, y la confianza es baja por falta de datos."
   },
   {
-   "liga": "Liga BetPlay",
-   "fecha": "2026-11-20T18:35:00-05:00",
-   "local": "Atlético Bucaramanga",
-   "visita": "América de Cali",
+   "liga": "Premier League",
+   "fecha": "2026-11-21T10:00:00-05:00",
+   "local": "Chelsea",
+   "visita": "Leeds United",
    "probs": {
-    "local": 38,
-    "empate": 32,
-    "visita": 30
+    "local": 46,
+    "empate": 28,
+    "visita": 26
    },
    "pick": "local",
-   "prob": 38,
-   "consejo": "Empate o local (1X), baja confianza",
+   "prob": 46,
+   "consejo": "Menos de 3,5 goles o Chelsea no pierde (1X)",
    "goles": "",
-   "analisis": "Los dos están igualados: empataron 1-1 en el todos contra todos, Bucaramanga ganó 1-0 a Fortaleza y América 2-0 a Pereira. América tiene la ventaja deportiva por ser cabeza de serie, y Bucaramanga juega en casa. No hallé cuotas ni datos de lesiones, así que la confianza es baja."
+   "analisis": "El mercado casi iguala a Chelsea con Leeds (-110 en DraftKings), por lo que el partido está más parejo de lo que parece. Chelsea alterna victorias y derrotas, y Leeds suma empates y una victoria reciente. No revisé lesiones. Riesgo: alta incertidumbre; no hay mucho valor en apostar por el local."
   },
   {
-   "liga": "Liga BetPlay",
-   "fecha": "2026-11-20T16:30:00-05:00",
-   "local": "Independiente Medellín",
-   "visita": "Independiente Santa Fe",
+   "liga": "Bundesliga",
+   "fecha": "2026-11-21T09:30:00-05:00",
+   "local": "Borussia Mönchengladbach",
+   "visita": "Borussia Dortmund",
    "probs": {
-    "local": 37,
-    "empate": 32,
-    "visita": 31
+    "local": 29,
+    "empate": 26,
+    "visita": 45
    },
-   "pick": "local",
-   "prob": 37,
-   "consejo": "Menos de 2.5 goles (confianza baja)",
+   "pick": "visita",
+   "prob": 45,
+   "consejo": "Dortmund o empate (X2)",
    "goles": "",
-   "analisis": "Primera fecha del Grupo A. Santa Fe terminó mejor (34 pts contra 32) y ganó 1-0 a Medellín en el todos contra todos. Medellín juega en casa y llegó con una victoria 1-0 en la última fecha. No encontré cuotas ni partes médicos fiables, así que la estimación tiene mucha incertidumbre."
+   "analisis": "Gladbach llega con un solo triunfo en sus últimos cinco partidos. Dortmund está invicto en esos cinco aunque con muchos empates. No encontré cuotas ni lesiones, así que la confianza es baja. Riesgo: Dortmund empata mucho y Gladbach es incómodo de local."
+  },
+  {
+   "liga": "Bundesliga",
+   "fecha": "2026-11-21T09:30:00-05:00",
+   "local": "SV Elversberg",
+   "visita": "SC Freiburg",
+   "probs": {
+    "local": 33,
+    "empate": 27,
+    "visita": 40
+   },
+   "pick": "visita",
+   "prob": 40,
+   "consejo": "Ambos equipos marcan o Freiburg no pierde (X2)",
+   "goles": "",
+   "analisis": "Es un duelo entre el séptimo (Elversberg, local) y el tercero (Freiburg). Freiburg suma más victorias recientes, pero Elversberg es irregular y juega en casa. No encontré cuotas ni lesiones, así que reparto bien las probabilidades. Riesgo: partido parejo y difícil de predecir."
   }
  ],
- "analisis": "Bayern Múnich vs Colonia: Bayern lleva 11 victorias y 5 empates en 16 partidos de esta temporada, está invicto en casa y recibe a un Colonia sin victorias de visitante y con bajas en defensa (Hübers, Van den Berg). El riesgo es que Bayern tiene muchas bajas (Neuer, Davies, Gnabry, Díaz en duda) y Kompany regresa al banquillo. Una casa de apuestas daba a Bayern como favorito fuerte (-1800), pero ese dato puede estar desactualizado.\n\nAthletic Club vs Espanyol: Athletic (7º) juega en San Mamés contra un Espanyol (13º) con pocas bajas pero menos nivel. Athletic llega con muchas bajas (Vivian, Guruzeta, Sannadi y Paredes en duda) y viene de empatar en Osasuna. La cuota local de una casa era cercana a -210, aunque ese dato puede ser antiguo.\n\nTroyes vs Le Havre: Duelo de los dos últimos de la tabla. Troyes (17º, 8 pts) es el equipo con menos goles de la liga, pero Le Havre no ha ganado, lleva seis derrotas seguidas y tiene cinco bajas. El riesgo principal es el debut del técnico Ismael en Le Havre, que puede dar un rebote anímico; las cuotas rondaban Troyes 2.10-2.15, empate 3.10 y Le Havre 3.40.\n\nDeportivo Cali vs Millonarios: Cali terminó con 35 pts y es local; Millonarios clasificó con lo justo (30 pts) y sumó poco en los cruces directos. Cali empató 2-2 con Tolima en la última fecha, y Millonarios tiene plantel para dar sorpresas. No encontré cuotas ni informes de lesiones, así que la confianza es baja.\n\nAtlético Bucaramanga vs América de Cali: Los dos están igualados: empataron 1-1 en el todos contra todos, Bucaramanga ganó 1-0 a Fortaleza y América 2-0 a Pereira. América tiene la ventaja deportiva por ser cabeza de serie, y Bucaramanga juega en casa. No hallé cuotas ni datos de lesiones, así que la confianza es baja."
+ "analisis": "Real Madrid vs Celta de Vigo: Las cuotas dan al Madrid cerca del 80% (1,19 a 1,24) y el Celta tiene dudas (Borja Iglesias, Starfelt). Riesgo: el Madrid juega Champions contra el PSV el martes, puede rotar, y tiene bajas como Rodrygo, Asencio y Mendy. Con cuota tan baja el valor es escaso.\n\nManchester City vs Fulham: City es claro favorito en el Etihad: DraftKings le pone -250 y es tercero en la tabla. Dos fuentes dan formas recientes distintas para City y no pude confirmar las bajas, así que bajé la confianza. Riesgo: Fulham llega con buenos resultados recientes y puede cerrar el partido.\n\nNapoli vs Torino: Napoli es favorito por jerarquía y por jugar en casa, pero no pude verificar forma, lesiones ni cuotas. Por eso mantengo la estimación prudente. Riesgo: Torino suele ser un rival cerrado y el partido puede terminar con pocos goles.\n\nTottenham Hotspur vs Ipswich Town: Tottenham es favorito (-185 en DraftKings) y suma 3 victorias en sus últimos 5 partidos. Ipswich viene irregular con empates y una derrota. No pude revisar lesiones, así que la confianza es media. Riesgo: Tottenham puede ser irregular y no cerrar el partido.\n\nNewcastle United vs Arsenal: Arsenal llega con 5 victorias seguidas y buena solidez defensiva. Newcastle ha perdido 7 partidos de local en 2026 y tiene bajas como Joelinton. Cuotas: Arsenal 11/20, empate 3/1, Newcastle 9/2. Riesgo: Saka está lesionado y Arsenal gana muchos partidos por un gol, así que un empate es posible."
 }
